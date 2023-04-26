@@ -18,7 +18,7 @@ else if (fname == "Andrew") {
 else if (fname == "Robert") {
     nickname = "Bob"
 }
-else if (fname = "Cynthia") {
+else if (fname == "Cynthia") {
     nickname = "Cindy";
 }
 else{
