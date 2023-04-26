@@ -1,0 +1,13 @@
+ 
+ 
+ 
+ ((a + b) * c)) / 5
+
+
+  
+ ((a + b) * c)) / (5 + 3)
+
+var top =  (a + b) * c ;
+var bottom = 5 + 3;
+
+var result = top / bottom;
