@@ -46,7 +46,18 @@
             </div>
             <div class="row">
               <div class="col">
+                <form>
+                    <div class="mb-3">
+                      <label for="txtInput" class="form-label">Celcius (input)</label>
+                      <input type="text" class="form-control" id="txtInput" >
+                   </div>
+                    <div class="mb-3">
+                      <label for="txtOutput" class="form-label">Fahrenheit (Output)</label>
+                      <input type="text" class="form-control" id="txtOutput" readonly>
+                    </div>
 
+                    <button id="calculateBtn" type="button" class="btn btn-primary">Calculate</button>
+                  </form>
               </div>
             </div>
         </div>
@@ -56,6 +67,8 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script src="scripts/site.js"></script>
+    <script src="scripts/c_to_f.js"></script>
+    
 </body>
 
 </html>
